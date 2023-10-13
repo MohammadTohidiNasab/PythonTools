@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<p>
+    this is a deatil
+</p>
+
+<center> <img src = "{{food.photo.url}}"> </center>
+
+<ul >
+
+    <li > {{ food }}  </li>
+
+    <li> {{ food.price }} </li>
+
+    <li> {{ food.info }} </li>
+
+    <li> {{ food.rate }} </li>
+
+    <li> {{ food.time }} </li>
+
+</ul>
+
+{% endblock content %}
